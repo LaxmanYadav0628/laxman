@@ -25,6 +25,9 @@ body{
     border-radius: 10px;
     padding: 30px 40px;
 }
+.wrapper:hover{
+    border: 2px solid black;
+}
 .wrapper h1{
     font-size: 36px;
     text-align: center;
@@ -36,6 +39,10 @@ body{
     
     margin: 30px 0;
 
+}
+.input-box:hover{
+    border: 2px solid rgb(254, 167, 6);
+    border-radius:40px;
 }
 .input-box input{
     width: 100%;
@@ -105,4 +112,8 @@ body{
 }
 .register-link p{
     margin-top: 10px;
+}
+.btn:hover{
+    border: 2px solid rgb(254, 167, 6);
+    border-radius: 40px;
 }
